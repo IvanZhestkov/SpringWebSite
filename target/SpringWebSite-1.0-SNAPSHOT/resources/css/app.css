@@ -1,0 +1,1221 @@
+/*Header & Footer - Start*/
+
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url(/resources/fonts/BebasNeueRegular.ttf);
+}
+
+html {
+    height: 100%
+}
+
+body {
+    color: #333;
+    font-size: 15px;
+    position: relative;
+    min-height: 100%;
+}
+
+.very_high_body_before_all_images_loaded {
+    height: 3000px;
+}
+
+.alert {
+    border-radius: 0;
+}
+
+#logo_row {
+    margin: 25px 0;
+}
+
+.cool_font {
+    font-family: BebasNeueRegular;
+}
+
+#main_menu_row {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#main_menu_row ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 303px;
+    /*margin-left: 364px;*/
+}
+
+#main_menu_row ul li {
+    float: left;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+#main_menu_row a {
+    text-decoration: none;
+}
+
+#main_mobile_menu_row {
+    font-size: 26px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#main_mobile_menu_row ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#main_mobile_menu_row ul li {
+    float: left;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#main_mobile_menu_row a {
+    text-decoration: none;
+    color: #333;
+}
+
+#cart_col {
+    text-align: right;
+}
+
+.menu_button {
+    color: #333;
+    cursor: pointer;
+}
+
+#search_input_container {
+    position: absolute;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+#search_input {
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
+
+#search_input:focus {
+    outline: none;
+}
+
+.visible {
+    display: block !important;
+}
+
+#hide_search_input_button {
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    cursor: pointer;
+    top: 5px;
+}
+
+#footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#footer_container {
+    font-size: 12px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#footer_container .col_header {
+    color: #333;
+    font-family: BebasNeueRegular;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#footer_container .col_list .item {
+    margin-bottom: 5px;
+}
+
+#footer_container .col_list {
+    margin-bottom: 30px;
+}
+
+#footer_container .footer_logo {
+    width: 70%;
+}
+
+#footer_container .social {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+#footer_container .social a {
+    font-size: 22px;
+}
+
+#footer_container .copyright_row {
+    border-top: 1px solid #333;
+    padding-top: 18px;
+    text-align: center;
+}
+
+.visa_mastercard_logo {
+    width: 130px;
+}
+
+#main_mobile_submenu {
+    font-size: 22px;
+    text-align: center;
+    display: none;
+}
+
+#main_mobile_submenu a {
+    text-decoration: none;
+    color: #333;
+}
+
+#main_mobile_submenu .submenu_item {
+    border-top: 1px dotted #ddd;
+    padding: 8px 0;
+}
+
+.separator {
+    background: #333;
+    height: 2px;
+    width: 100%;
+}
+
+.animate_on_hover {
+    color: #333;
+}
+
+.animate_on_hover:hover {
+    text-decoration: none;
+}
+
+.underline, .underline:hover {
+    text-decoration: underline;
+}
+
+#useCookieNotice {
+    background: #333;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: none;
+}
+
+#useCookieNotice .inner {
+    text-align: center;
+}
+
+#useCookieNoticeAgreeButton {
+    border: none;
+    background: #fff;
+    color: #333;
+}
+
+/*Header & Footer - End*/
+
+/*Home page - Start*/
+
+#main_page_poster img {
+    width: 100%;
+}
+
+/*Home page - End*/
+
+/*List - Start*/
+
+#breadcrumbs {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#breadcrumbs a {
+    text-decoration: none;
+}
+
+#sidebar_header {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.sidebar_list {
+    margin-bottom: 40px;
+}
+
+.sidebar_list ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar_list ul li {
+    padding: 2px 0;
+}
+
+.sidebar_list a {
+    text-decoration: none;
+}
+
+.list_item {
+    margin-bottom: 40px;
+}
+
+.list_item .title {
+    text-align: center;
+    margin: 20px 0 5px;
+}
+
+.list_item .cart_btn_price {
+    text-align: center;
+}
+
+.list_item .curt_btn {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.list_item .title a {
+    color: #333;
+    font-family: BebasNeueRegular;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.list_item .price {
+    font-family: BebasNeueRegular;
+    color: #333;
+    font-size: 24px;
+}
+
+.list_item .discount {
+    font-family: BebasNeueRegular;
+    text-decoration: line-through;
+    font-size: 22px;
+    color: #aaa;
+}
+
+.none {
+    display: none;
+}
+
+.list_item .image {
+    position: relative;
+}
+
+.corner_icon {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 23%;
+    width: 23%;
+}
+
+/*List - End*/
+
+/*Product page - Start*/
+
+.zoom {
+    display: inline-block;
+    position: relative;
+}
+
+.zoom img {
+    display: block;
+}
+
+.zoom img::selection {
+    background-color: transparent;
+}
+
+#preview_list_col {
+    padding-right: 0;
+}
+
+#preview_list .preview_item {
+    cursor: pointer;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+#product_photos_row {
+    margin-bottom: 40px;
+}
+
+#preview_list .preview_item.active {
+    opacity: 1;
+}
+
+#product_data #product_title {
+    font-family: BebasNeueRegular;
+    margin-top: 0;
+    font-size: 46px;
+}
+
+#product_data #product_price {
+    font-family: BebasNeueRegular;
+    font-size: 46px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee;
+}
+
+#product_data #product_price .discount {
+    font-size: 36px;
+}
+
+#product_data #product_price .discount {
+    font-family: BebasNeueRegular;
+    color: #aaa;
+    text-decoration: line-through;
+}
+
+.product_size_select .title {
+    font-family: BebasNeueRegular;
+    font-size: 22px;
+}
+
+.product_size_select select {
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    padding-top: 2px;
+    width: 100px;
+}
+
+.product_attribute .title {
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+}
+
+.product_attribute .input {
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+}
+
+.product_attribute .input #size_custom_select {
+    height: 45px;
+    width: 100%;
+    padding: 8px;
+    background: #fff;
+    border: 2px solid #777;
+    cursor: pointer;
+    position: relative;
+}
+
+.product_attribute .input #size_custom_select .glyphicon {
+    position: absolute;
+    font-size: 12px;
+    right: 5px;
+    top: 14px;
+}
+
+.input .options {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    background-color: #fff;
+}
+
+.input .options .option {
+    border-left: 2px solid #777;
+    border-right: 2px solid #777;
+    border-bottom: 2px solid #777;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+
+.input .options .option:hover {
+    background-color: #777;
+    color: #fff;
+}
+
+.input .input_number > div {
+    float: left;
+}
+
+.input .input_number .plus, .input .input_number .minus {
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.input .input_number .text {
+    width: 50%;
+    text-align: center;
+}
+
+.product_attribute .input .input_number .plus, .product_attribute .input .input_number .minus {
+    height: 45px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.product_attribute .input .input_number .text {
+    height: 45px;
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+.product_attribute .input #quantity {
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    border: 2px solid #777;
+}
+
+#product_add_to_cart_btn_wrap {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    border-bottom: 2px solid #eee;
+}
+
+#product_add_to_cart_btn_wrap #add_to_cart_btn {
+    width: 100%;
+    padding: 10px;
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background: #333;
+}
+
+#product_description {
+    margin-bottom: 40px;
+}
+
+#product_description .title {
+    font-family: BebasNeueRegular;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#product_description p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+.add_to_cart_message {
+    margin-top: 30px;
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    text-align: center;
+    display: none;
+}
+
+.add_to_cart_message.sold_out .inner {
+    background: #ddd;
+    color: #444;
+    padding: 10px;
+}
+
+.add_to_cart_message.ending .inner {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    padding: 10px;
+}
+
+.add_to_cart_message.added .inner {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    padding: 10px;
+}
+
+.add_to_cart_message.added .inner a {
+    color: #31708f;
+    text-decoration: underline;
+}
+
+.add_to_cart_message.in_stock .inner {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    padding: 10px;
+}
+
+.add_to_cart_message.exceeded .inner {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    padding: 10px;
+}
+
+.animate_on_hover_bg.disabled {
+    background: #777 !important;
+    cursor: not-allowed;
+    outline: none;
+}
+
+#product_description .text p,
+#product_description .text table {
+    margin-bottom: 20px;
+}
+
+#product_description .text ul {
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+.gift_alert {
+    font-size: 20px;
+    font-family: BebasNeueRegular;
+}
+
+#show_dimension_table {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#show_dimension_table .btn_title {
+    text-decoration: underline;
+}
+
+.popup {
+    width: 100%;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    display: none;
+    z-index: 1;
+}
+
+.popup_content_wrapper {
+    margin-top: 40px;
+}
+
+.close_popup_btn {
+    display: block;
+    position: absolute;
+    top: -22px;
+    right: 13px;
+    color: #E5E5E5;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.dimension_table {
+    background-color: #fff;
+}
+
+.dimension_table caption {
+    background-color: #fff;
+    padding-left: 10px;
+}
+
+/*Product page - End*/
+
+/*Cart page - Start*/
+
+#page_header {
+    text-align: center;
+    font-family: BebasNeueRegular;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.cart_item .item_image {
+    margin-right: 20px;
+    float: left;
+}
+
+.cart_item .item_image img {
+    width: 150px;
+}
+
+.cart_item .title {
+    font-size: 24px;
+}
+
+.cart_item .price {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.cart_item .remove_btn {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.cart_item a {
+    text-decoration: none;
+}
+
+#cart_table {
+    margin-bottom: 0;
+}
+
+#cart_table th, #cart_table td {
+    padding: 0;
+}
+
+#cart_table th {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#cart_table .product_cell {
+    text-align: left;
+}
+
+#cart_table .cost_cell {
+    text-align: right;
+}
+
+#cart_table .quantity_cell {
+    text-align: center;
+}
+
+#cart_table .quantity_cell {
+    width: 80px;
+}
+
+#cart_table .cost_cell {
+    width: 150px;
+}
+
+#cart_table td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: BebasNeueRegular;
+}
+
+.cart_item .quantity_input {
+    border: 1px solid #777;
+    text-align: center;
+    width: 70px;
+}
+
+.cart_item .cost {
+    font-size: 26px;
+}
+
+#cart_table #to_continue {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+
+#cart_table #to_continue .glyphicon {
+    font-size: 12px;
+}
+
+#cart_table #total {
+    font-size: 30px;
+    text-align: right;
+}
+
+.cart_page_button {
+    width: 170px;
+    padding: 10px;
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background: #333;
+}
+
+.cart_page_button_wrap {
+    text-align: right;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.cart_exceeded_message {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #a94442;
+    margin-top: 5px;
+    display: none;
+}
+
+.quantity_cell .input .input_number .plus, .quantity_cell .input .input_number .minus {
+    height: 45px;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.quantity_cell .input .input_number .text {
+    height: 45px;
+    padding-top: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/*Cart page - End*/
+
+/*Checkout page - Start*/
+
+.align_right {
+    text-align: right;
+}
+
+.align_left {
+    text-align: left;
+}
+
+.align_center {
+    text-align: center;
+}
+
+#checkout_order_summary .title_col {
+    width: 60%;
+}
+
+#checkout_order_summary {
+    margin-bottom: 5px;
+}
+
+#checkout_order_summary td {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#checkout_order_summary_toggel #text_toggel {
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#checkout_order_summary_toggel #text_toggel .glyphicon {
+    font-size: 13px;
+}
+
+#checkout_order_summary_toggel #sum_preview {
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+}
+
+#checkout_order_summary_wrap {
+    display: none;
+    margin-top: 10px;
+}
+
+#checkout_order_summary_wrap .sup_info {
+    font-size: 10px;
+    color: #777;
+}
+
+#checkout_order_summary_outerwrap {
+    margin-bottom: 5px;
+}
+
+#checkout_order_summary .size {
+    font-size: 10px;
+    color: #777;
+}
+
+.checkout_section {
+    padding-top: 20px;
+}
+
+.checkout_section .header {
+    margin-bottom: 15px;
+}
+
+.checkout_section .header .text {
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+}
+
+.rd_input {
+    height: 46px !important;
+    margin-bottom: 20px;
+}
+
+.rd_select {
+    height: 46px !important;
+    background: #fff;
+    width: 100%;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border-color: #ccc;
+    margin-bottom: 20px;
+}
+
+.rd_select[disabled] {
+    cursor: not-allowed;
+    opacity: 0.7;
+    color: #777;
+}
+
+.rd_textarea {
+    height: 100px !important;
+    margin-bottom: 20px;
+}
+
+.rd_checkbox_label {
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.no_country_link {
+    margin-top: -12px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.checkout_errors_block {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.delivery_messages {
+    margin-bottom: 30px;
+}
+
+.address_fields {
+    display: none;
+}
+
+.subheader {
+    font-family: BebasNeueRegular;
+    font-size: 18px;
+}
+
+/*Checkout page - End*/
+
+/*Auth - Start*/
+
+#auth_row {
+    margin-top: 20px;
+}
+
+.auth_header {
+    font-family: BebasNeueRegular;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.auth_button {
+    width: 100%;
+    padding: 10px;
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background: #333;
+}
+
+#auth_remember_me {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#right_auth_col {
+    border-left: 2px solid #eee;
+    padding-left: 30px;
+}
+
+#left_auth_col {
+    padding-right: 30px;
+}
+
+.auth_page_descr {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.forgot_pass_link_wrap {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/*Auth - End*/
+
+/*Contact - Start*/
+
+#contact_help_text {
+    margin-bottom: 20px;
+}
+
+/*Contact - End*/
+
+/*FAQ - Start*/
+
+.question_answer {
+    margin-bottom: 30px;
+}
+
+.question_answer .question {
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.question_answer .answer {
+    color: #777;
+}
+
+/*FAQ - End*/
+
+/*Terms - Start*/
+
+.terms_section {
+    margin-bottom: 30px;
+}
+
+.terms_section .header {
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.terms_section .paragpaph {
+    margin-bottom: 8px;
+}
+
+/*Terms - End*/
+
+/*Profile - Start*/
+
+.rd_button {
+    width: 170px;
+    padding: 10px;
+    font-family: BebasNeueRegular;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+    background: #333;
+}
+
+.profile_rd_button_wrap {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.profile_data dd {
+    margin-bottom: 10px;
+}
+
+.edit_profile_button_wrap {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#delete_account_link {
+    display: block;
+    margin-bottom: 50px;
+}
+
+/*Profile - End*/
+
+/*Info - Start*/
+
+.info_page_header {
+    font-family: BebasNeueRegular;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*Info - End*/
+
+/*Shiptor widget - Start*/
+#settlementSuggestions {
+    position: relative;
+    z-index: 1;
+    height: 0;
+    display: none;
+}
+
+#settlementItems {
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 180px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    margin-top: -20px;
+}
+
+.settlementItem {
+    padding: 5px 11px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.settlementItem:hover {
+    background-color: #eee;
+}
+
+.settlementItem .muteText {
+    color: #808080;
+}
+
+#shipmentMethods {
+    display: none;
+}
+
+#courierVariants {
+    display: none;
+    margin-top: 13px;
+}
+
+#deliveryPoints {
+    display: none;
+}
+
+#deliveryPoints #deliveryPointItems {
+    height: 500px;
+    overflow-y: auto;
+}
+
+#deliveryPointItems .item {
+    position: relative;
+    border: 1px solid transparent;
+    cursor: pointer;
+    -webkit-transition: border 200ms ease, background 200ms ease;
+    -moz-transition: border 200ms ease, background 200ms ease;
+    -o-transition: border 200ms ease, background 200ms ease;
+    transition: border 200ms ease, background 200ms ease;
+}
+
+#deliveryPointItems .item:hover {
+    background-color: #f6f6f6;
+}
+
+#deliveryPointItems .item.checked {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+}
+
+#deliveryPointItems .radio {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+#deliveryPointItems .description {
+    padding: 8px 12px 8px 30px;
+}
+
+#deliveryPointItems .values {
+    margin-bottom: 6px;
+}
+
+#deliveryPointItems .cost {
+    color: #c85656;
+    font-weight: bold;
+}
+
+#deliveryPointItems .time {
+    color: #808080;
+}
+
+#deliveryPointItems .schedule {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+#deliveryPointItems .info {
+    font-size: 13px;
+    color: #808080;
+    margin-bottom: 6px;
+    display: none;
+}
+
+#deliveryPointItems .show_info_button {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+#shipmentMethods .subheader {
+    margin-top: 8px;
+}
+
+#ua_options .item {
+    position: relative;
+    cursor: pointer;
+}
+
+#ua_options .radio {
+    position: absolute;
+    top: 8px;
+}
+
+#ua_options .description {
+    padding: 6px 10px 0px 20px;
+}
+
+#ua_options {
+    margin-bottom: 18px;
+}
+
+#shipmentMethodsContainer .item {
+    position: relative;
+    cursor: pointer;
+}
+
+#shipmentMethodsContainer .radio {
+    position: absolute;
+    top: 8px;
+}
+
+#shipmentMethodsContainer .description {
+    padding: 6px 10px 0px 20px;
+}
+
+#shipmentMethodsContainer .values {
+    margin-bottom: 6px;
+}
+
+#shipmentMethodsContainer .cost {
+    font-weight: bold;
+}
+
+#shipmentMethodsContainer .time {
+    color: #808080;
+}
+
+#courierVariants .subheader {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#russianPostAddress {
+    margin-top: 13px;
+    display: none;
+}
+
+#deliveryTimeItemsWrap {
+    display: none;
+}
+
+#shiptorCourierMessage {
+    display: none;
+}
+
